@@ -1,0 +1,213 @@
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  min-height: 72px;
+  border-bottom: 3px solid #FC5451;
+}
+
+.navbar-brand {
+	height: 72px;
+}
+
+.nav > li {
+	margin-top: 4%;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #E53D58;
+  	background-color: white;
+}
+
+#slider {
+	  margin-top: 3%;
+}
+
+.carousel-control {
+	top: 64%;
+  	bottom: 26%;
+  	width: 5%;
+}
+
+.carousel-control.left {
+	left: 30%;
+}
+
+.carousel-control.right {
+	right: 30%;
+}
+
+.sobre_nos {
+	padding-top: 2%; 
+}
+
+.sobre_nos h1, #portifolio h1 {
+	font-family: 'myriad_pro';
+	color: #E53D58;
+  	text-align: center;
+  	font-weight: bold;
+}
+
+.sobre_nos p, #portifolio p{
+	font-family: 'myriad_pro';
+	color: #535353;
+	text-align: center;
+	font-size: 21px;
+	width: 50%;
+	margin: auto;
+	padding-top: 2%;
+	line-height: initial;
+}
+
+.sobre_nos hr, #portifolio hr {
+	width: 16%;
+	color: #B52238;
+	border-top: 2px solid #B52238;
+
+}
+
+.img_topo_quem {
+	text-align: center;
+	padding: 2%;
+}
+
+.bg_quem_somos {
+	text-align: center;
+	position: relative;
+	z-index: 99999;
+}
+
+.bg_quem_somos img {
+	
+  	margin: auto;
+  	text-align: center;
+}
+
+.texto_quem_somos {
+	position: relative;
+  	color: white;
+  	background: url(../img/bg_texto_home.png) repeat;
+  	padding-top: 10%;
+  	margin-top: -10.3%;
+  	text-align: center;
+  	padding-bottom: 3%;
+}
+
+.texto_quem_somos h3 {
+	font-family: 'segoe';
+	font-size: 26px;
+}
+
+.texto_quem_somos p {
+	font-family: 'myriad_pro';
+	padding-top: 2%;
+	padding-bottom: 2%; 
+	font-size: 20px;
+	width: 60%;
+	margin: auto;
+}
+
+.texto_quem_somos .btn-mariana {
+	font-family: 'segoe';
+	font-weight: 600;
+}
+
+
+#portifolio {
+	padding-top: 2%;
+}
+
+#portifolio h1 {
+	font-weight: normal;
+}
+
+#portifolio p {
+	  width: 70%;
+}
+
+.portifolio_nav .nav-tabs {
+	border-bottom: none;
+	height: 50px;
+}
+
+.portifolio_nav > .nav-tabs > li {
+	 margin-top: 2%;
+	 min-width: 10%;
+}
+
+.portifolio_nav > .nav-tabs > li > a {
+	color: #535353; 
+	padding: 5% 20%;
+	background: #F5F5F5;
+	border-radius: 0px 0px 0 0;
+}
+
+.portifolio_nav > .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #fff;
+  	cursor: default;
+  	background-color: #E53D58;
+  	border: none;
+ 	border-bottom-color: transparent;
+ 	border-radius: 0px 0px 0 0;
+ 	padding: 5% 20%;
+}
+
+.portifolio_nav > .nav-tabs > li > a:hover {
+	background-color: #E53D58;
+  	border: none;
+ 	border-radius: 0px 0px 0 0;
+ 	color: white;
+ 	padding: 5% 20%;
+
+}
+
+.portifolio_nav {
+	width: 60%;
+	margin: auto;
+}
+
+#portifolio_content {
+	width: 60%;
+	margin: auto;
+	padding-top: 2%;
+	position: relative;
+	overflow: auto;
+}
+
+.portifolio_galeria {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.div_buttom {
+	text-align: center;
+	margin-top: 3%;
+	font-weight: bold;
+}
+
+.div_buttom .btn-mariana {
+	font-weight: bold;
+}
+
+.btn-mariana {
+	color: #fff;
+  	background-color: #E53D58;
+  	border-color: #D9354F;
+  	font-family: 'segoe';
+  	box-shadow: 0px 3px 0px #C40F2B;
+  	-webkit-box-shadow: 0px 3px 0px #C40F2B;
+  	-moz-box-shadow: 0px 3px 0px #C40F2B;
+}	
+
+.btn-mariana:focus,
+.btn-mariana.focus {
+  color: #fff;
+  background-color: #E53D58;
+  border-color: #E53D58;
+}
+.btn-mariana:hover {
+  color: #fff;
+  background-color: #E53D58;
+  border-color: #E53D58;
+}
+
+

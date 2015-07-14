@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+@font-face {
+    font-family: 'myriad_pro';
+    src: url('MyriadRegularCondensedNormal.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url('segoe.ttf') format('truetype');
+    font-style: normal;
+}
