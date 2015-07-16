@@ -107,10 +107,46 @@
 		</div>
 		<div class="div_buttom"><a href="" class="btn btn-mariana">Ver todos</a></div>
 	</div>
-
-
-	
 </section>
+
+<div id="artigos" class="row-fluid">
+	<section class="container-fluid">
+		<h1>Textos, artigos, reflexões sobre o <br>
+			<span>mundo a nossa volta</span></h1>
+		<hr>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy. </p>
+
+		<div class="row-fluid item_artigos">
+			<div class="col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+				<p class="titulo">Por Mariana.etc</p>
+				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				<a href="" class="btn btn-artigo">Continuar lendo</a>
+			</div>
+			<div class="col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+				<p class="titulo">Por Mariana.etc</p>
+				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				<a href="" class="btn btn-artigo">Continuar lendo</a>
+			</div>
+			<div class="col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+				<p class="titulo">Por Mariana.etc</p>
+				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				<a href="" class="btn btn-artigo">Continuar lendo</a>
+			</div>
+			<div class="col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+				<p class="titulo">Por Mariana.etc</p>
+				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				<a href="" class="btn btn-artigo">Continuar lendo</a>
+			</div>
+			
+		</div>
+
+	</section>
+		
+</div>
 
 
 
