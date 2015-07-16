@@ -3,6 +3,7 @@
   border-color: white;
   min-height: 72px;
   border-bottom: 3px solid #FC5451;
+  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -20,6 +21,10 @@
 
 #slider {
 	  margin-top: 3%;
+}
+
+#slider .item img {
+	width: 100%;
 }
 
 .carousel-control {
@@ -183,6 +188,7 @@
 	background: url('../img/bg_artigos.png') no-repeat;
 	text-align: center;
 	padding: 4% 2% 2% 2%;
+	background-size: cover;
 }
 
 #artigos h1 {
@@ -201,8 +207,8 @@
 
 #artigos hr {
 	width: 16%;
-	  color: #B52238;
-	  border-top: 2px solid #B52238;
+	color: #B52238;
+	border-top: 2px solid #B52238;
 }
 
 #artigos .item_artigos {
@@ -212,7 +218,7 @@
 #artigos .item_artigos .bg {
 	background: url('../img/bg_artigo_item.png') no-repeat center top;
 	padding-top: 2%;
-  padding-bottom: 2%;
+  	padding-bottom: 2%;
 }
 
 #artigos .item_artigos img {
@@ -234,6 +240,128 @@
 #artigos .item_artigos .btn {
 	margin-top: 15%;
 }
+
+/*Área de doação*/
+#doacoes {
+	background: url('../img/bg_doacoes.png') repeat;
+	text-align: center;
+	padding: 2% 0%
+}
+
+#doacoes h1 {
+	color: white;
+	font-family: 'myriad_pro';
+}
+
+#doacoes hr {
+	color: white;
+	border-top: 2px solid white;
+	width: 16%;
+}
+
+#doacoes .resumo {
+	color: white;
+	font-family: 'myriad_pro';
+	font-size: 17px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 1%;
+
+}
+
+#doacoes p a {
+	color: #E5465F;
+	font-family: 'segoe';
+}
+
+#doacoes .div_buttom a img {
+	padding-right: 10%;
+}
+
+/*Área de Contato*/
+#contato {
+	background: url('../img/bg_xicara.png') no-repeat right bottom;
+	text-align: center;
+	padding: 2% 0%
+}
+
+#contato h1 {
+	color:#A0774F;
+	font-family: 'myriad_pro';
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#contato hr {
+	color: #A0774F;
+	border-top: 2px solid #A0774F;
+	width: 16%;
+}
+
+#contato .resumo {
+	font-family: 'myriad_pro';
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 1%;
+	color: #949494;
+}
+
+#contato form {
+	padding-top: 5%;
+	text-align: left;
+	padding-bottom: 2%;
+}
+
+#contato form fieldset input {
+	border-bottom: 1px solid #C5C5C5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 33%;
+}
+
+#contato form fieldset label {
+	color: #868686;
+	font-weight: normal;
+}
+
+#contato form fieldset textarea {
+	border-bottom: 1px solid #C5C5C5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 50%;
+}
+
+#contato form .div_buttom {
+	text-align: left;
+}
+
+/*Área de Rodapé*/
+footer {
+	background: #E53D58;
+	color: white;
+	border-bottom: 20px solid #51473F;
+	text-align: center;
+	padding: 1%;
+	font-family: 'myriad_pro';
+}
+
+footer .redes_sociais {
+	height: 30px;
+	background-color: rgb(205, 46, 71);
+	width: 100%;
+}
+
+footer .texto {
+	
+}
+
+footer .texto p {
+	margin-bottom: 0;
+}
+
 
 .div_buttom {
 	text-align: center;
@@ -287,6 +415,27 @@
 	color: #fff;
 	background-color: #A0774F;
 	border-color: #A0774F;
+}
+
+.btn-doacao {
+	color: #E53D58;
+	background-color: #FFF;
+	background: #FFF;
+	font-family: 'segoe';
+	font-weight: bold;
+	
+}
+
+.btn-doacao:focus, .btn-doacao.focus {
+	color: #E53D58;
+  	background-color: #FFF;
+  	border-color: #FFF;
+}
+
+.btn-doacao:hover {
+	color: #E53D58;
+	background-color: #FFF;
+	border-color: #FFF;
 }
 
 

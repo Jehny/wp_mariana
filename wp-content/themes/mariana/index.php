@@ -22,7 +22,7 @@
 					}else{$active = "";}
 					?>
 					<div class="<?php echo $active; ?> item">
-						<img alt="" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($banner->ID)); ?>">
+						<img alt="" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($banner->ID)); ?>" class="img-responsive">
 					    <!-- <div class="carousel-caption">
 					       	<h3>...</h3>
 					        <p>...</p>
@@ -115,7 +115,6 @@
 			<span>mundo a nossa volta</span></h1>
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy. </p>
-
 		<div class="row-fluid item_artigos">
 			<div class="col-md-3 bg">
 				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
@@ -141,11 +140,43 @@
 				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 				<a href="" class="btn btn-artigo">Continuar lendo</a>
 			</div>
-			
 		</div>
-
 	</section>
-		
+</div>
+
+<div id="doacoes" class="row-fluid">
+	<section class="container-fluid">
+		<h1>Gostaria de patrocinar nosso projeto?</h1>
+		<hr>
+		<p class="resumo">Entre em contato com a gente, tire dúvidas, dê sugestões. Quer um <br />
+		orçamento para projeto? Teremos o maior prazer em realizar sua ideia.</p>
+		<div class="div_buttom"><a href="" class="btn btn-doacao"><img src="<?php bloginfo('template_url'); ?>/img/ico_butao_doacao.png" class="img-reponsive">Eu quero</a></div>
+	</section>
+</div>
+
+<div id="contato" class="row-fluid">
+	<section class="container-fluid">
+		<h1>Quer bater um papo com a gente?</h1>
+		<hr>
+		<p class="resumo">Entre em contato com a gente, tire dúvidas, dê sugestões. Quer um <br />
+		orçamento para projeto? Teremos o maior prazer em realizar sua ideia.</p>
+
+		<form action="" method="POST" id="form_fale" class="col-md-offset-1">
+			<fieldset>
+				<label>Nome:</label>
+				<p><input type="text" name="nome"></p>
+			</fieldset>
+			<fieldset>
+				<label>E-mail:</label>
+				<p><input type="email" name="email"></p>
+			</fieldset>
+			<fieldset>
+				<label>Mensagem:</label>
+				<p><textarea rows="2" cols="25"></textarea></p>
+			</fieldset>
+			<div class="div_buttom"><button type="submit" name="submit" class="btn btn-artigo">Enviar mensagem</button></div>
+		</form>
+	</section>
 </div>
 
 

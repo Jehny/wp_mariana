@@ -1,0 +1,65 @@
+#topo_quem_somos {
+	background: url(../img/bg_sobre.png) no-repeat;
+	background-size: cover;
+}
+
+.quem_faz {
+	background: white;
+	width: 61%;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 13%;
+	padding-bottom: 5.3%;
+	font-family: 'myriad_pro';
+}
+
+.quem_faz h1 {
+	color: #E53D58;
+	font-family: 'myriad_pro';
+	padding-top: 3%;
+}
+
+.quem_faz .resumo {
+	color: #9999A5;
+	font-family: 'myriad_pro';
+	font-size: 22px;
+}
+
+.quem_faz .foto img {
+	width: 175px;
+	height: 175px;
+	border-radius: 100px;
+	margin-top: 10%;
+	margin-left: 17%;
+}
+
+.quem_faz p {
+	font-size: 20px;
+}
+
+#topo_quem_somos .apresentacao {
+	padding-bottom: 10%;
+}
+
+.corpo {
+	font-family: 'myriad_pro';
+	color: #9999A5;
+	width: 80%;
+	margin: auto;
+	border-top: 10px solid #E53D58;
+	margin-top: -35px;
+	background-color: white;
+	background: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.corpo h1 {
+	color: #E53D58;
+	text-align: center;
+}
+
+.corpo .resumo {
+	width: 60%;
+	margin: auto;
+}
