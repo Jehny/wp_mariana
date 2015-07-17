@@ -52,14 +52,34 @@
 	background: white;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 16px;
 }
 
 .corpo h1 {
 	color: #E53D58;
 	text-align: center;
+	padding-bottom: 2%;
 }
 
 .corpo .resumo {
-	width: 60%;
+	width: 80%;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%
+}
+
+.corpo .separador {
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+}
+
+.corpo .separador .colunas {
+	  width: 31%;
+}
+
+.corpo .separador img {
 	margin: auto;
 }

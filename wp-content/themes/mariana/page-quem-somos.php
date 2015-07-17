@@ -26,6 +26,22 @@
 			<div class="corpo">
 				<?php 
 					$page = get_page_by_title( 'Quem Somos' );
+					
+					if( get_field('titulo') ){ ?>
+						 <h1><?php the_field('titulo'); ?></h1>
+
+				<?php } ?>
+					<div class="separador">
+						<hr class="col-md-4 colunas">
+						<p class="col-md-4 colunas"><img src="<?php bloginfo('template_url'); ?>/img/separador_sobre.png" class="img-responsive"> </p>
+						<hr class="col-md-4 colunas">
+					</div>
+				<?php
+
+					if (has_excerpt() ) { ?>
+						<div class="resumo" ><?php the_excerpt(); ?></div>
+
+				<?php } 
 
 					echo  $page->post_content;
 				?>

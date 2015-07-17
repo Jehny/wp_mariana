@@ -5,6 +5,8 @@ add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'banners_post_type' );
 
+add_post_type_support('page','excerpt');
+
 
 add_post_type_support('banners', 'thumbnail');
 
