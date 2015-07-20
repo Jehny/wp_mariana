@@ -73,6 +73,7 @@
 .img_topo_quem {
 	text-align: center;
 	padding: 2%;
+	display: inherit;
 }
 
 .bg_quem_somos {

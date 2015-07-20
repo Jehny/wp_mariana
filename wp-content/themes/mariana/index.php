@@ -36,11 +36,12 @@
 
 	  <!-- Controls -->
 	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span aria-hidden="true"><img src="<?php bloginfo('template_url'); ?>/img/prev.png"></span>
+	    <span aria-hidden="true"><img src="<?php bloginfo('template_url'); ?>/img/prev.png" class="img-responsive"></span>
 	    <span class="sr-only">Previous</span>
 	  </a>
 	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon" aria-hidden="true"><img src="<?php bloginfo('template_url'); ?>/img/next.png"></span>
+	    <span class="glyphicon" aria-hidden="true"><img src="<?php bloginfo('template_url'); ?>/img/next.png 
+	    " class="img-responsive"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>	
@@ -57,10 +58,10 @@
 </section>
 <div class="row-fluid">
 	<div class="img_topo_quem">
-		<img src="<?php bloginfo('template_url'); ?>/img/quem_somos_home_topo.png">
+		<img src="<?php bloginfo('template_url'); ?>/img/quem_somos_home_topo.png" class="img-responsive">
 	</div>
 	<div class="bg_quem_somos">
-		<img src="<?php bloginfo('template_url'); ?>/img/quem_somos_home.png">
+		<img src="<?php bloginfo('template_url'); ?>/img/quem_somos_home.png" class="img-responsive">
 	</div>
 	<div class="texto_quem_somos">
 		<h3>Escrever as delicadezas do dia a dia é uma dádiva!</h3>
@@ -89,19 +90,19 @@
 
 		<div id="portifolio_content" class="tab-content">
 			<div role="tabpanel" class="tab-pane fade active in" id="todos" aria-labelledby="home-tab">
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="fotos" aria-labelledby="home-tab">
-		       <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
+		       <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="videos" aria-labelledby="home-tab">
-			    <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
-		        <div class="col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
+			    <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_1.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_2.png"></div>
+		        <div class="col-xs-12 col-sm-4 col-md-4"><img src="<?php bloginfo('template_url'); ?>/img/imagem_3.png"></div>
 			</div>
 
 		</div>
@@ -116,26 +117,26 @@
 		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy. </p>
 		<div class="row-fluid item_artigos">
-			<div class="col-md-3 bg">
-				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+			<div class="col-xs-12 col-sm-6 col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png" class="img-responsive">
 				<p class="titulo">Por Mariana.etc</p>
 				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 				<a href="" class="btn btn-artigo">Continuar lendo</a>
 			</div>
-			<div class="col-md-3 bg">
-				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+			<div class="col-xs-12 col-sm-6 col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png" class="img-responsive">
 				<p class="titulo">Por Mariana.etc</p>
 				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 				<a href="" class="btn btn-artigo">Continuar lendo</a>
 			</div>
-			<div class="col-md-3 bg">
-				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+			<div class="col-xs-12 col-sm-6 col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png" class="img-responsive">
 				<p class="titulo">Por Mariana.etc</p>
 				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 				<a href="" class="btn btn-artigo">Continuar lendo</a>
 			</div>
-			<div class="col-md-3 bg">
-				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png">
+			<div class="col-xs-12 col-sm-6 col-md-3 bg">
+				<img src="<?php bloginfo('template_url'); ?>/img/img_artigo_item.png" class="img-responsive">
 				<p class="titulo">Por Mariana.etc</p>
 				<p class="resumo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 				<a href="" class="btn btn-artigo">Continuar lendo</a>
