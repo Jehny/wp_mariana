@@ -1,0 +1,80 @@
+/* 
+ Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+*/
+@media screen and (max-width: 1200px) {
+	.logo_img  {   padding-left: 0;}
+	.buttom_toggle { margin-top: 6%; margin-right: 0;}
+	.img_topo_quem img {  display: inline;}
+	.nav > li { margin-top: 0%;}
+	.sobre_nos p, #portifolio p, .texto_quem_somos p { width: 100%; padding-bottom: 4%; }
+	.portifolio_nav {width: 100%; }
+	.portifolio_nav > .nav-tabs > li {  min-width: inherit;}
+	.portifolio_nav > .nav-tabs > li > a {  padding: 5% 20%;	}
+	#portifolio_content { width: 100%;   text-align: center;}
+	#portifolio_content div img { margin-bottom: 3%;}
+	#artigos h1 {  margin-top: 2%;}
+	#artigos .item_artigos img { margin-top: 6%; }
+	#artigos .item_artigos .btn { margin-bottom: 6%;}
+	#artigos .item_artigos .bg {  background-size: 245px 352px;}
+	#contato { background-size: 338px 257px;}
+	#contato form fieldset input {width: 70%;}
+	#contato form fieldset textarea {width: 70%}
+	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
+	#doacoes { padding-bottom: 4%;}
+	#artigos .item_artigos .resumo {width: 78%; text-align: center; margin: auto;}
+}
+
+/* 
+ Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+@media screen and (max-width: 992px) { 
+	.logo_img  {   padding-left: 0;}
+	.buttom_toggle { margin-top: 6%; margin-right: 0;}
+	.img_topo_quem img {  display: inline;}
+	.nav > li { margin-top: 0%;}
+	.sobre_nos p, #portifolio p, .texto_quem_somos p { width: 100%; padding-bottom: 4%; }
+	.portifolio_nav {width: 100%; }
+	.portifolio_nav > .nav-tabs > li {  min-width: 16%;}
+	.portifolio_nav > .nav-tabs > li > a {  padding: 5% 20%;	}
+	#portifolio_content { width: 100%;   text-align: center;}
+	#portifolio_content div img { margin-bottom: 3%;}
+	#artigos h1 {  margin-top: 22%;}
+	#artigos .item_artigos img { margin-top: 6%;}
+	#artigos .item_artigos .btn { margin-bottom: 6%;}
+	#artigos .item_artigos .bg {  background-size: 275px 330px;}
+	#contato { background-size: 210px 175px;}
+	#contato form fieldset input {width: 70%;}
+	#contato form fieldset textarea {width: 70%}
+	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
+	#doacoes { padding-bottom: 4%;}
+	#artigos .item_artigos .resumo {width: 78%; text-align: center; margin: auto;}
+}
+
+
+/* 
+ Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+@media screen and (max-width: 768px) {
+	.logo_img  {   padding-left: 0;}
+	.buttom_toggle { margin-top: 6%; margin-right: 0;}
+	.img_topo_quem img {  display: inline;}
+	.nav > li { margin-top: 0%;}
+	.sobre_nos p, #portifolio p, .texto_quem_somos p { width: 100%; padding-bottom: 4%; }
+	.portifolio_nav {width: 100%; }
+	.portifolio_nav > .nav-tabs > li {  min-width: 16%;}
+	.portifolio_nav > .nav-tabs > li > a {  padding: 5% 20%;	}
+	#portifolio_content { width: 100%;   text-align: center;}
+	#portifolio_content div img { margin-bottom: 3%;}
+	#artigos h1 {  margin-top: 22%;}
+	#artigos .item_artigos img { margin-top: 6%;   margin: auto; }
+	#artigos .item_artigos .btn { margin-bottom: 6%;}
+	#artigos .item_artigos .bg {  background-size: 275px 340px;   padding-top: 6%;}
+	#contato { background-size: 150px 130px;}
+	#contato form fieldset input {width: 70%;}
+	#contato form fieldset textarea {width: 70%}
+	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
+	#doacoes { padding-bottom: 4%;}
+	#artigos .item_artigos .resumo {width: 69%; text-align: center; margin: auto;}
+}
+
+
