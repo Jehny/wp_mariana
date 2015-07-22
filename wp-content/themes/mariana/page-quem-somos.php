@@ -6,12 +6,12 @@
 	<div id="topo_quem_somos" class="row-fluid">
 		<section class="container-fluid apresentacao">
 			<div class="quem_faz">
-				<div class="col-md-4">
+				<div class="col-xs-4 col-sm-4 col-md-4">
 					<div class="foto">
-						<img src="http://www.alienado.net/fotos/2013/05/Rosto-redondo.jpg" width="50" height="50">
+						<img src="http://www.alienado.net/fotos/2013/05/Rosto-redondo.jpg" width="50" height="50" class="img-responsive">
 					</div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-xs-8 col-sm-8 col-md-8">
 					<h1>Quem faz?</h1>
 					<p>Mariana Timoteo</p>
 					<p><strong>Jornalista/Fotógrafa</strong></p>
@@ -32,9 +32,9 @@
 
 				<?php } ?>
 					<div class="separador">
-						<hr class="col-md-4 colunas">
-						<p class="col-md-4 colunas"><img src="<?php bloginfo('template_url'); ?>/img/separador_sobre.png" class="img-responsive"> </p>
-						<hr class="col-md-4 colunas">
+						<hr class="col-xs-4 col-sm-4 col-md-4 colunas">
+						<p class="col-xs-4 col-sm-4 col-md-4 colunas"><img src="<?php bloginfo('template_url'); ?>/img/separador_sobre.png" class="img-responsive"> </p>
+						<hr class="col-xs-4 col-sm-4 col-md-4 colunas">
 					</div>
 				<?php
 

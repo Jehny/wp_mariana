@@ -1,4 +1,17 @@
 /* 
+ Dispositivos com largura mínima de 1280 pixels. Por exemplo TVs.
+*/
+@media screen and (max-width: 1280px) {
+	.img_topo_quem img {  display: inline;}
+	.texto_quem_somos {  margin-top: -10.8%;}
+	#artigos .item_artigos img {margin-left: auto; margin-right: auto;}
+
+	/*Página de Quem somos*/
+
+	/*Página de Listagem*/
+
+}
+/* 
  Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
 */
 @media screen and (max-width: 1200px) {
@@ -22,6 +35,11 @@
 	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
 	#doacoes { padding-bottom: 4%;}
 	#artigos .item_artigos .resumo {width: 78%; text-align: center; margin: auto;}
+
+	/*Página de Quem somos*/
+	.quem_faz .foto img { margin-left: 0%;}
+
+	/*Página de Listagem*/
 }
 
 /* 
@@ -39,7 +57,7 @@
 	#portifolio_content { width: 100%;   text-align: center;}
 	#portifolio_content div img { margin-bottom: 3%;}
 	#artigos h1 {  margin-top: 22%;}
-	#artigos .item_artigos img { margin-top: 6%;}
+	#artigos .item_artigos img { margin-top: 6%;   margin-left: auto; margin-right: auto;}
 	#artigos .item_artigos .btn { margin-bottom: 6%;}
 	#artigos .item_artigos .bg {  background-size: 275px 330px;}
 	#contato { background-size: 210px 175px;}
@@ -48,13 +66,28 @@
 	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
 	#doacoes { padding-bottom: 4%;}
 	#artigos .item_artigos .resumo {width: 78%; text-align: center; margin: auto;}
+	footer .redes_sociais {padding-top: 10%; }
+
+	/*Página de Quem somos*/
+	.quem_faz .foto img {  width: 120px; height: 120px; margin-left: 0%;}
+	.quem_faz { width: 100%; }
+	.quem_faz h1 {font-size: 30px;}
+	.quem_faz p {font-size: 18px;}
+	.quem_faz .resumo { font-size: 18px;}
+	.corpo {  margin-top: -24px;   padding-bottom: 15%;}
+	.corpo h1 {  font-size: 36px;}
+	.separador hr { width: 28% !important;   margin-top: 3%;}
+	.corpo .resumo { width: 100%; font-size: 14px;}
+
+	/*Página de Listagem*/
+
 }
 
 
 /* 
  Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.logo_img  {   padding-left: 0;}
 	.buttom_toggle { margin-top: 6%; margin-right: 0;}
 	.img_topo_quem img {  display: inline;}
@@ -75,6 +108,54 @@
 	.texto_quem_somos { padding-bottom: 5%; margin-top: -12%;}
 	#doacoes { padding-bottom: 4%;}
 	#artigos .item_artigos .resumo {width: 69%; text-align: center; margin: auto;}
+	/*.separador_footer {margin-top: -9.5%;}*/
+	.separador_footer img { margin-bottom: -4%;}
+	footer .redes_sociais {padding-top: 10%; }
+
+	/*Página de Quem somos*/
+	.quem_faz .foto img {  width: 72px; height: 72px; margin-left: 0%;}
+	.quem_faz { width: 100%; }
+	.quem_faz h1 {font-size: 28px;}
+	.quem_faz p {font-size: 14px;}
+	.quem_faz .resumo { font-size: 14px;}
+	.corpo {  margin-top: -24px;   padding-bottom: 15%;}
+	.corpo h1 {  font-size: 30px;}
+	.separador hr { width: 20% !important;   margin-top: 3%;}
+	.corpo .resumo { width: 100%; font-size: 14px;}
+
+	/*Página de Listagem*/
+	.post {  padding-bottom: 8%;}
+	.post .titulo .numero {font-size: 40px;}
+	.post .titulo .nome h1 {font-size: 24px;}
+	.post .corpo img {  height: 15%;}
+	.busca {  width: 100%;}
+	.posts_anteriores {  width: 100%; margin-bottom: 10%;}
+
+
+
 }
+
+@media screen and (width: 736px) {
+	.separador_footer img { margin-bottom: -2%;} 
+	
+	/*Página de Quem somos*/
+	.separador hr { width: 28% !important;   margin-top: 3%;}
+	.quem_faz .foto img {width: 100px; height: 100px; margin-left: 10%;	}
+
+	/*Página de Listagem*/
+}
+
+@media screen and (width: 640px){ 
+	.separador_footer img { margin-bottom: -2%;} 
+
+	/*Página de Quem somos*/
+	.quem_faz .foto img {width: 100px; height: 100px; margin-left: 17%;}
+	.separador hr {  width: 28% !important;}
+
+	/*Página de Listagem*/
+}
+
+
+
 
 
