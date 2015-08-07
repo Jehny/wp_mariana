@@ -130,3 +130,42 @@
 	padding-bottom: 3%;
 	color: #838383;
 }	
+
+
+
+/*Comentários*/
+
+#form-allowed-tags {
+	display: none;
+}
+
+#commentform .form-submit {
+	max-width: 80%;
+	text-align: right;
+}
+
+#commentform input[type='text'] {
+	height: 30px;
+    border-radius: 5px;
+    border: 1px solid #CACACA;
+    min-width: 50%;
+}
+
+#commentform textarea {
+	border-radius: 5px;
+	border: 1px solid #CACACA;
+	min-width: 80%;
+}
+
+#commentform label {
+	display: block;
+	font-weight: normal;
+}
+
+#respond {
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	background: white;
+	padding: 2% 5%;
+	margin-bottom: 8%;
+}

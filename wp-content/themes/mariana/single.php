@@ -51,7 +51,13 @@
 					), $comments);
 				?>
 			</ol>
-			<?php comment_form( $args, $post_id ); ?>
+			<?php 
+				$args = array(
+				  'title_reply'       => 'Deixe um comentário' ,
+				  'label_submit'      => 'Enviar comentário'
+				);
+				comment_form( $args, $id ); 
+			?>
 		</div>
 		<div id="listagem" class="col-xs-12 col-sm-12 col-md-4">
 				<div class="busca">

@@ -5,4 +5,7 @@ $(function(){
 	  $(this).tab('show')
 	});
 
+	$('#submit').addClass('btn');
+    $('#submit').addClass('btn-mariana');
+
 });
